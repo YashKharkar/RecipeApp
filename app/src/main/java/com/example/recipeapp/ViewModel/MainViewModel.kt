@@ -1,4 +1,4 @@
-package com.example.recipeapp
+package com.example.recipeapp.ViewModel
 
 import android.content.ContentValues.TAG
 import android.util.Log
@@ -6,7 +6,8 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import kotlinx.coroutines.flow.MutableStateFlow
+import com.example.recipeapp.Model.Categories
+import com.example.recipeapp.Model.recipeService
 import kotlinx.coroutines.launch
 
 class MainViewModel : ViewModel(){

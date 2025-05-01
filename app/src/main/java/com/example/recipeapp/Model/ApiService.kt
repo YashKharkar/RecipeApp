@@ -1,4 +1,4 @@
-package com.example.recipeapp
+package com.example.recipeapp.Model
 
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -14,5 +14,5 @@ val recipeService = retrofit.create(ApiService::class.java)
 interface ApiService {
 
     @GET("categories.php")
-    suspend fun getCategories():CategoriesResponse
+    suspend fun getCategories(): CategoriesResponse
 }

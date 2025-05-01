@@ -1,13 +1,15 @@
-package com.example.recipeapp
+package com.example.recipeapp.ViewModel
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.lifecycle.viewmodel.compose.viewModel
-import androidx.navigation.NavHost
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.example.recipeapp.Model.Categories
+import com.example.recipeapp.Screen
 import com.example.recipeapp.View.CategoryDetailScreen
+import com.example.recipeapp.View.RecipeScreen
 
 @Composable
 fun RecipeApp(navController: NavHostController) {

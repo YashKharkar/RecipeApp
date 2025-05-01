@@ -19,7 +19,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
-import com.example.recipeapp.Categories
+import com.example.recipeapp.Model.Categories
 
 @Composable
 fun CategoryDetailScreen(category: Categories) {
